@@ -1,0 +1,179 @@
+/* Container 112 */
+.footer__container {
+    position: relative;
+    bottom: 0;
+    width: 100%;
+    height: 380px;
+    background: #1D2128FF;
+    border-radius: 6px;
+}
+
+.footer__title {
+    position: absolute;
+    top: 40px;
+    left: 48px;
+    width: 65px;
+    height: 22px;
+    font-family: Poppins;
+    font-size: 14px;
+    line-height: 22px;
+    font-weight: 700;
+    color: #FFFFFFFF;
+}
+
+.footer__content {
+    position: absolute;
+    top: 76px;
+    left: 48px;
+    width: 507px;
+    font-family: Poppins;
+    font-size: 14px;
+    line-height: 22px;
+    font-weight: 400;
+    color: #DEE1E6FF;
+}
+
+:disabled+.icon, :disabled+.icon+.icon {
+    fill: #BCC1CAFF;
+}
+
+/* Button 33 */
+.footer__button {
+    position: absolute;
+    top: 134px;
+    left: 459px;
+    height: 36px;
+    padding: 0 12px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: Manrope;
+    font-size: 14px;
+    line-height: 22px;
+    font-weight: 400;
+    color: #FFFFFFFF;
+    background: #F44B87FF;
+    opacity: 1;
+    border: none;
+    border-radius: 6px;
+}
+
+/* Hover */
+.footer__button:hover {
+    color: #FFFFFFFF;
+    background: #F0105EFF;
+}
+
+/* Pressed */
+.footer__button:hover:active {
+    color: #FFFFFFFF;
+    background: #D20D52FF;
+}
+
+/* Disabled */
+.footer__button:disabled {
+    opacity: 0.4;
+}
+
+/* Textbox 28 */
+.textbox {
+    position: absolute;
+    top: 134px;
+    left: 48px;
+    opacity: 1;
+}
+
+.textbox input {
+    width: 396px;
+    height: 36px;
+    padding-left: 12px;
+    padding-right: 12px;
+    font-family: Manrope;
+    font-size: 14px;
+    line-height: 22px;
+    font-weight: 400;
+    background: #FFFFFFFF;
+    border-radius: 6px;
+    border-width: 1px;
+    border-color: #BCC1CAFF;
+    border-style: solid;
+    outline: none;
+}
+
+/* hover */
+.textbox input:hover {
+    color: #BCC1CAFF;
+    background: #FFFFFFFF;
+    border-color: #A7ADB7FF;
+}
+
+/* focused */
+.textbox input:focused {
+    color: #BCC1CAFF;
+    background: #FFFFFFFF;
+    border-color: #9095A0FF;
+}
+
+/* disabled */
+.textbox input:disabled {
+    color: #BCC1CAFF;
+    background: #FFFFFFFF;
+    border-color: #BCC1CAFF;
+}
+
+.textbox :disabled+.icon, .textbox :disabled+.icon+.icon {
+    fill: #BCC1CAFF;
+}
+
+.footer__information {
+    display: flex;
+    position: relative;
+    top: 300px;
+    left: 52px;
+}
+
+/* Image 51 */
+.footer__information__image {
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    width: 42px;
+    height: 42px;
+    border-radius: 0px;
+}
+
+.footer__information__name {
+    position: absolute;
+    top: 3px;
+    left: 52px;
+    font-family: Poppins;
+    font-size: 24px;
+    line-height: 36px;
+    font-weight: 700;
+    color: #FFFFFFFF;
+}
+
+.footer__information__Company {
+    position: absolute;
+    left: 150px;
+    top: 15px;
+    width: 129px;
+    font-family: Poppins;
+    font-size: 11px;
+    line-height: 18px;
+    font-weight: 400;
+    color: #DEE1E6FF;
+}
+
+.footer__information__Service {
+    position: absolute;
+    left: 300px;
+    top: 15px;
+    width: 171px;
+    height: 18px;
+    font-family: Poppins;
+    font-size: 11px;
+    line-height: 18px;
+    font-weight: 400;
+    color: #DEE1E6FF;
+}

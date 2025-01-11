@@ -2,6 +2,7 @@ import "./HomePage.css";
 import Header from "../../../../public/header.png";
 import Avatar from "../../../../public/avatar.png";
 import Item from "@/app/shared/Item/Item";
+import BigItem from "@/app/shared/Item/BigItem";
 
 export default function HomePage() {
   return (
@@ -53,6 +54,36 @@ export default function HomePage() {
         <h1 className="editor__pick__title">Editor's pick</h1>
         <div className="editor__pick__content">
           Curated Culinary Delights: Handpicked Favorites by Our Expert Editors!
+        </div>
+        <div className="editor__pick__list">
+          <BigItem
+            img={Avatar.src}
+            title="Stuffed sticky rice ball"
+            time="14 minutes"
+            name="Jennifer King"
+            content="Stuffed sticky rice balls: A delightful Asian treat with chewy, glutinous rice and a flavorful surprise filling..."
+          />
+          <BigItem
+            img={Avatar.src}
+            title="Stuffed sticky rice ball"
+            time="14 minutes"
+            name="Jennifer King"
+            content="Stuffed sticky rice balls: A delightful Asian treat with chewy, glutinous rice and a flavorful surprise filling..."
+          />
+          <BigItem
+            img={Avatar.src}
+            title="Stuffed sticky rice ball"
+            time="14 minutes"
+            name="Jennifer King"
+            content="Stuffed sticky rice balls: A delightful Asian treat with chewy, glutinous rice and a flavorful surprise filling..."
+          />
+          <BigItem
+            img={Avatar.src}
+            title="Stuffed sticky rice ball"
+            time="14 minutes"
+            name="Jennifer King"
+            content="Stuffed sticky rice balls: A delightful Asian treat with chewy, glutinous rice and a flavorful surprise filling..."
+          />
         </div>
       </div>
     </>

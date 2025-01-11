@@ -6,6 +6,7 @@ import MainNavigation from "@/app/shared/Navigation/MainNavigation";
 import { AuthContext } from "@/app/shared/context/auth-context";
 import HomePage from "@/app/pages/HomePage/HomePage";
 import Auth from "@/app/user/pages/Auth";
+import Footer from "@/app/shared/Footer/Footer";
 
 export default function Home() {
   const [isLoggedIn, setIsLoggedIn] = useState(false);
@@ -51,6 +52,7 @@ export default function Home() {
       >
         <MainNavigation />
         <main>{routes}</main>
+        <Footer />
       </AuthContext.Provider>
     </>
   );
