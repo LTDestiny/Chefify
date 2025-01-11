@@ -26,7 +26,7 @@ export default function HomePage() {
         </div>
       </div>
       <div className="summer__recipe__container">
-        <div className="summer__recipe__title"> This Summer Recipes</div>
+        <h1 className="summer__recipe__title">This Summer Recipes</h1>
         <div className="summer__recipe__content">
           We have all your Independence Day sweets covered.
         </div>
@@ -35,6 +35,24 @@ export default function HomePage() {
           <Item img={Avatar.src} name="Salad Caprese" time="14 minutes" />
           <Item img={Avatar.src} name="Salad Caprese" time="14 minutes" />
           <Item img={Avatar.src} name="Salad Caprese" time="14 minutes" />
+        </div>
+      </div>
+      <div className="summer__recipe__container">
+        <h1 className="summer__recipe__title">Recipes With Videos</h1>
+        <div className="summer__recipe__content__video">
+          Cooking Up Culinary Creations with Step-by-Step Videos
+        </div>
+        <div className="summer__recipe__list">
+          <Item img={Avatar.src} name="Salad Caprese" time="14 minutes" />
+          <Item img={Avatar.src} name="Salad Caprese" time="14 minutes" />
+          <Item img={Avatar.src} name="Salad Caprese" time="14 minutes" />
+          <Item img={Avatar.src} name="Salad Caprese" time="14 minutes" />
+        </div>
+      </div>
+      <div className="editor__pick__container">
+        <h1 className="editor__pick__title">Editor's pick</h1>
+        <div className="editor__pick__content">
+          Curated Culinary Delights: Handpicked Favorites by Our Expert Editors!
         </div>
       </div>
     </>
