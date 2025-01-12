@@ -16,3 +16,210 @@
 .authentication form {
     margin-bottom: 1rem;
 }
+
+/* Image 72 */
+.authentication>img {
+    position: absolute;
+    top: 1px;
+    left: 0px;
+    width: 501px;
+    height: 624px;
+    border-radius: 0px;
+}
+
+.authentication__content {
+    position: absolute;
+    top: 72px;
+    left: 110px;
+    width: 302px;
+    height: 50px;
+    font-family: Poppins;
+    font-size: 24px;
+    line-height: 36px;
+    font-weight: 700;
+    color: #FFFFFFFF;
+}
+
+.authentication__header {
+    position: absolute;
+    top: 24px;
+    left: 533px;
+    font-family: Poppins;
+    font-size: 32px;
+    line-height: 48px;
+    font-weight: 700;
+    color: #171A1FFF;
+}
+
+.authentication__label {
+    position: absolute;
+    top: 101px;
+    left: 533px;
+    font-family: Manrope;
+    font-size: 20px;
+    line-height: 30px;
+    font-weight: 400;
+    color: #171A1FFF;
+}
+
+
+/* Button 44 */
+.authentication__button {
+    position: absolute;
+    top: 223px;
+    left: 533px;
+    width: 582px;
+    height: 44px;
+    padding: 0 16px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: Manrope;
+    font-size: 16px;
+    line-height: 26px;
+    font-weight: 400;
+    color: #FFFFFFFF;
+    background: #F44B87FF;
+    opacity: 1;
+    border: none;
+    border-radius: 12px;
+    cursor: pointer;
+}
+
+/* Hover */
+.authentication__button:hover {
+    color: #FFFFFFFF;
+    background: #F0105EFF;
+}
+
+/* Pressed */
+.authentication__button:hover:active {
+    color: #FFFFFFFF;
+    background: #D20D52FF;
+}
+
+/* Disabled */
+.authentication__button:disabled {
+    opacity: 0.4;
+}
+
+.authentication__register {
+    position: absolute;
+    top: 280px;
+    left: 740px;
+    text-align: center;
+    font-size: 13px;
+}
+
+.login__link {
+    color: #ff007f;
+    /* Màu hồng tương tự hình ảnh */
+    font-weight: 600;
+    text-decoration: none;
+}
+
+.divider {
+    width: 600px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    margin: 20px 0;
+    position: relative;
+    top: 270px;
+    left: 510px;
+}
+
+.divider::before,
+.divider::after {
+    content: '';
+    flex: 1;
+    border-bottom: 1px solid #ddd;
+    margin: 0 10px;
+}
+
+.divider-text {
+    color: #888;
+    font-size: 14px;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+
+.authentication__required {
+    position: absolute;
+    top: 345px;
+    left: 551px;
+    width: 564px;
+    height: 48px;
+    font-family: Manrope;
+    font-size: 14px;
+    line-height: 22px;
+    font-weight: 400;
+    color: #9095A0FF;
+    text-align: center;
+}
+
+.login-buttons {
+    position: relative;
+    left: 250px;
+    top: 350px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    align-items: center;
+}
+
+.login-button {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 582px;
+    height: 44px;
+    padding: 10px 15px;
+    border: none;
+    border-radius: 8px;
+    font-size: 16px;
+    font-weight: 500;
+    cursor: pointer;
+    background-color: #f4f5f7;
+    color: #333;
+    transition: all 0.3s ease;
+}
+
+.login-button .icon {
+    margin-right: 10px;
+    font-size: 20px;
+    font-weight: 700;
+}
+
+.login-button.google {
+    color: #ea4335;
+}
+
+.login-button.facebook {
+    color: #1877f2;
+}
+
+.login-button.apple {
+    color: #000;
+}
+
+.login-button:hover {
+    background-color: #e1e2e5;
+}
+
+.login-button:active {
+    background-color: #d1d2d4;
+}
+
+/* E remove 16 */
+.authentication__close {
+    position: absolute;
+    top: 35px;
+    left: 1083px;
+    width: 32px;
+    height: 32px;
+    fill: #171A1FFF;
+    cursor: pointer;
+    font-size: 20px;
+    font-weight: 800;
+}

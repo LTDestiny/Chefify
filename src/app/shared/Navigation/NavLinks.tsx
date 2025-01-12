@@ -20,7 +20,7 @@ export default function NavLinks() {
   return (
     <>
       <Modal show={showModal} onCancel={closeModal}>
-        <Auth />
+        <Auth onCancel={closeModal} />
       </Modal>
 
       <ul className="nav-links">

@@ -15,7 +15,6 @@
 
 .form-control input,
 .form-control textarea {
-    width: 100%;
     font: inherit;
     border: 1px solid #ccc;
     background: #f8f8f8;
@@ -38,4 +37,45 @@
 .form-control--invalid textarea {
     border-color: red;
     background: #ffd1d1;
+}
+
+.authentication__input {
+    position: absolute;
+    top: 148px;
+    left: 533px;
+    opacity: 1;
+    width: 582px;
+    height: 46px;
+    padding-left: 12px;
+    padding-right: 12px;
+    font-family: Manrope;
+    font-size: 14px;
+    line-height: 22px;
+    font-weight: 400;
+    background: #F3F4F6FF;
+    border-radius: 12px;
+    border-width: 0px;
+    outline: none;
+}
+
+/* hover */
+.authentication__input:hover {
+    color: #BCC1CAFF;
+    background: #F3F4F6FF;
+}
+
+/* focused */
+.authentication__input:focused {
+    color: #BCC1CAFF;
+    background: #FFFFFFFF;
+}
+
+/* disabled */
+.authentication__input:disabled {
+    color: #BCC1CAFF;
+    background: #F3F4F6FF;
+}
+
+.authentication__input :disabled+.icon, .authentication__input :disabled+.icon+.icon {
+    fill: #BCC1CAFF;
 }

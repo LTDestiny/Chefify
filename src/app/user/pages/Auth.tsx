@@ -14,7 +14,10 @@ import { useForm } from "@/app/shared/hooks/form-hook";
 import { useHttpClient } from "@/app/shared/hooks/http-hook";
 import { AuthContext } from "@/app/shared/context/auth-context";
 
+import Authentication from "../../../../public/Authentication.png";
+
 import "./Auth.css";
+import { Link } from "react-router-dom";
 
 // Define the types for formState and inputs
 interface FormState {
@@ -33,7 +36,7 @@ interface AuthResponse {
   };
 }
 
-export default function Auth() {
+export default function Auth(props: any) {
   const auth = useContext(AuthContext);
   const [isLoginMode, setIsLoginMode] = useState(true);
   const { isLoading, error, sendRequest, clearError } = useHttpClient();
@@ -118,7 +121,51 @@ export default function Auth() {
     <React.Fragment>
       <ErrorModal error={error} onClear={clearError} />
       <Card className="authentication">
-        {isLoading && <LoadingSpinner asOverlay />}
+        <img src={Authentication.src} alt="" />
+        <div className="authentication__content">
+          "Embrace the art of cooking, where flavors come alive!"
+        </div>
+        <div className="authentication__header">Login</div>
+        <div className="authentication__label">Enter your email to log in</div>
+
+        <Input
+          className="authentication__input"
+          element="input"
+          id="email"
+          type="email"
+          validators={[VALIDATOR_EMAIL()]}
+          errorText="Please enter a valid email address"
+          onInput={inputHandler}
+        />
+        <button className="authentication__button">Continue</button>
+        <p className="authentication__register">
+          Don't have an account?{" "}
+          <Link to="/login" className="login__link">
+            Sign in
+          </Link>
+        </p>
+        <div className="divider">
+          <span className="divider-text">OR</span>
+        </div>
+        <div className="authentication__required">
+          By continuing, you agree to the updated{" "}
+          <b>Terms of Sale, Terms of Service,</b> and <b>Privacy Policy.</b>
+        </div>
+        <div className="login-buttons">
+          <button className="login-button google">
+            <span className="icon">G</span> Continue with Google
+          </button>
+          <button className="login-button facebook">
+            <span className="icon">F</span> Continue with Facebook
+          </button>
+          <button className="login-button apple">
+            <span className="icon"></span> Continue with Apple
+          </button>
+        </div>
+        <div className="authentication__close" onClick={props.onCancel}>
+          X
+        </div>
+        {/* {isLoading && <LoadingSpinner asOverlay />}
         <form onSubmit={authSubmitHandler}>
           <h2>Login Required</h2>
           <hr />
@@ -157,7 +204,7 @@ export default function Auth() {
         </form>
         <Button inverse onClick={switchModeHandler}>
           SWITCH TO {isLoginMode ? "SIGNUP" : "LOGIN"}
-        </Button>
+        </Button> */}
       </Card>
     </React.Fragment>
   );

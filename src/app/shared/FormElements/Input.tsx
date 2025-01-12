@@ -52,6 +52,7 @@ export default function Input(props: any) {
   const element =
     props.element === "input" ? (
       <input
+        className={props.className}
         id={props.id}
         type={props.type}
         placeholder={props.placeholder}
