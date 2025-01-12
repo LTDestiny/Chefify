@@ -15,23 +15,23 @@
 /* Button 25 */
 .recipe__title {
     position: absolute;
-    top: 308px;
-    left: 194px;
-    width: 229px;
-    height: 36px;
-    padding: 0 12px;
+    top: 19.25rem;
+    left: 12.125rem;
+    width: 14.3125rem;
+    height: 2.25rem;
+    padding: 0 .75rem;
     display: flex;
     align-items: center;
     justify-content: center;
     font-family: Manrope;
-    font-size: 14px;
-    line-height: 22px;
+    font-size: .875rem;
+    line-height: 1.375rem;
     font-weight: 400;
     color: #5D4600FF;
     background: #FFC415FF;
     opacity: 1;
     border: none;
-    border-radius: 6px;
+    border-radius: .375rem;
 }
 
 /* Hover */
@@ -54,37 +54,37 @@
 /* Container 90 */
 .recipe__container {
     position: absolute;
-    top: 325px;
-    left: 108px;
-    width: 413px;
-    height: 418px;
+    top: 20.3125rem;
+    left: 6.75rem;
+    width: 25.8125rem;
+    height: 26.125rem;
     background: #FFFFFFFF;
-    border-radius: 12px;
-    border-width: 1px;
+    border-radius: .75rem;
+    border-width: .0625rem;
     border-color: #854EF4FF;
     border-style: dashed;
 }
 
 .recipe__container__title {
     position: absolute;
-    top: 65px;
-    left: 132px;
+    top: 4.0625rem;
+    left: 8.25rem;
     font-family: Poppins;
-    font-size: 20px;
-    line-height: 30px;
+    font-size: 1.25rem;
+    line-height: 1.875rem;
     font-weight: 700;
     color: #F44B87FF;
 }
 
 .recipe__container__content {
     position: absolute;
-    top: 107px;
-    left: 37px;
-    width: 340px;
-    height: 88px;
+    top: 6.6875rem;
+    left: 2.3125rem;
+    width: 21.25rem;
+    height: 5.5rem;
     font-family: Manrope;
-    font-size: 14px;
-    line-height: 22px;
+    font-size: .875rem;
+    line-height: 1.375rem;
     font-weight: 400;
     color: #171A1FFF;
     text-align: center;
@@ -93,20 +93,20 @@
 /* Avatar 19 */
 .recipe__container__avatar {
     position: absolute;
-    top: 225px;
-    left: 159px;
+    top: 14.0625rem;
+    left: 9.9375rem;
     opacity: 1;
     overflow: hidden;
-    border-radius: 18px;
+    border-radius: 1.125rem;
 }
 
 .recipe__container__author {
     position: absolute;
-    top: 294px;
-    left: 150px;
+    top: 18.375rem;
+    left: 9.375rem;
     font-family: Manrope;
-    font-size: 14px;
-    line-height: 22px;
+    font-size: .875rem;
+    line-height: 1.375rem;
     font-weight: 600;
     color: #565E6CFF;
     text-align: center;
@@ -115,28 +115,28 @@
 /* Button 24 */
 .recipe__container__button {
     position: absolute;
-    top: 340px;
-    left: 149px;
-    height: 46px;
-    padding: 0 12px;
+    top: 21.25rem;
+    left: 9.3125rem;
+    height: 2.875rem;
+    padding: 0 .75rem;
     display: flex;
     align-items: center;
     justify-content: center;
     font-family: Manrope;
-    font-size: 14px;
-    line-height: 22px;
+    font-size: .875rem;
+    line-height: 1.375rem;
     font-weight: 400;
     color: #FFFFFFFF;
     background: #F44B87FF;
     opacity: 1;
     border: none;
-    border-radius: 12px;
-    gap: 6px;
+    border-radius: .75rem;
+    gap: .375rem;
 }
 
 .recipe__container__button .icon {
-    width: 16px;
-    height: 16px;
+    width: 1rem;
+    height: 1rem;
     fill: #FFFFFFFF;
 }
 
@@ -160,36 +160,36 @@
 /* Container 97 */
 .summer__recipe__container {
     position: relative;
-    left: 0px;
+    left: 0rem;
     width: 100%;
-    height: 552px;
+    height: 34.5rem;
     background: rgb(255, 255, 255);
-    border-radius: 6px;
+    border-radius: .375rem;
     text-align: center;
-    margin-bottom: 100px;
+    margin-bottom: 6.25rem;
 }
 
 .summer__recipe__title {
     font-family: Lora;
-    font-size: 60px;
-    line-height: 56px;
+    font-size: 3.75rem;
+    line-height: 3.5rem;
     font-weight: 700;
     color: #F44B87FF;
 }
 
 .summer__recipe__content {
-    margin-top: 10px;
+    margin-top: .625rem;
     font-family: Manrope;
-    font-size: 20px;
-    line-height: 30px;
+    font-size: 1.25rem;
+    line-height: 1.875rem;
     font-weight: 400;
     color: #171A1FFF;
 }
 
 .summer__recipe__content__video {
     font-family: Manrope;
-    font-size: 20px;
-    line-height: 30px;
+    font-size: 1.25rem;
+    line-height: 1.875rem;
     font-weight: 400;
     color: #171A1FFF;
     text-align: center;
@@ -197,8 +197,8 @@
 
 .summer__recipe__list {
     position: relative;
-    top: -150px;
-    left: 160px;
+    top: -9.375rem;
+    left: 10rem;
     width: 70%;
     display: flex;
     justify-content: space-between;
@@ -207,28 +207,28 @@
 /* Container 107 */
 .editor__pick__container {
     position: relative;
-    left: 0px;
+    left: 0rem;
     width: 100%;
-    height: 796px;
+    height: 49.75rem;
     background: #FFFFFFFF;
-    border-radius: 0px;
+    border-radius: 0rem;
     text-align: center;
-    margin-bottom: 100px;
+    margin-bottom: 6.25rem;
 }
 
 .editor__pick__title {
     font-family: Lora;
-    font-size: 60px;
-    line-height: 56px;
+    font-size: 3.75rem;
+    line-height: 3.5rem;
     font-weight: 700;
     color: #F44B87FF;
 }
 
 .editor__pick__content {
-    margin-top: 10px;
+    margin-top: .625rem;
     font-family: Manrope;
-    font-size: 20px;
-    line-height: 30px;
+    font-size: 1.25rem;
+    line-height: 1.875rem;
     font-weight: 400;
     color: #171A1FFF;
 }
@@ -236,9 +236,9 @@
 .editor__pick__list {
     display: flex;
     flex-wrap: wrap;
-    gap: 50px;
+    gap: 3.125rem;
     position: relative;
     width: 70%;
     left: 13%;
-    top: -150px;
+    top: -9.375rem;
 }

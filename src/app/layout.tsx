@@ -22,6 +22,8 @@ export default function RootLayout({
   return (
     <html lang="en">
       <body className={`${geistSans.variable} ${geistMono.variable}`}>
+        <div id="modal-hook"></div>
+        <div id="backdrop-hook"></div>
         <BrowserRouter>{children}</BrowserRouter>
       </body>
     </html>

@@ -1,0 +1,31 @@
+.footer__contact__container {
+    position: absolute;
+    width: 12.5rem;
+    min-height: 9.375rem;
+}
+
+.footer__contact__title {
+    position: relative;
+    font-family: Poppins;
+    font-size: .875rem;
+    line-height: 1.375rem;
+    font-weight: 700;
+    color: #FFFFFFFF;
+}
+
+.footer__contact__container>ul {
+    list-style: none;
+    text-decoration: none;
+    list-style-type: none;
+
+}
+
+.footer__contact__container>ul>li {
+    margin-top: 1.25rem;
+    position: relative;
+    font-family: Poppins;
+    font-size: .875rem;
+    line-height: 1.375rem;
+    font-weight: 400;
+    color: #DEE1E6FF;
+}

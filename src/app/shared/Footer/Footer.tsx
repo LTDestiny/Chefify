@@ -30,6 +30,28 @@ export default function Footer() {
         <ListContact
           title="Learn More"
           contacts={["Our Cooks", "See Our Features", "FAQ"]}
+          left="1200"
+          top="40"
+        />
+        <ListContact
+          title="Shop"
+          contacts={["Gift Subscription", "Send Us Feedback"]}
+          left="1200"
+          top="240"
+        />
+        <ListContact
+          title="Recipes"
+          contacts={[
+            "What to Cook This Week",
+            "Pasta",
+            "Dinner",
+            "Healthy",
+            "Vegetarian",
+            "Vegan",
+            "Christmas",
+          ]}
+          left="1600"
+          top="40"
         />
       </div>
     </div>

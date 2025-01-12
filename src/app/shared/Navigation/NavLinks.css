@@ -42,15 +42,16 @@
 
 .nav-links .subscribe_btn a {
     background-color: #F44B87;
-    border-radius: 10px;
+    border-radius: .625rem;
     color: white;
 }
 
-.nav-links .login_btn a {
+.nav-links .login_btn {
     background-color: #FEF0F5;
-    border-radius: 10px;
+    border-radius: .625rem;
     color: #F66D9D;
 }
+
 
 @media (min-width: 768px) {
     .nav-links {
