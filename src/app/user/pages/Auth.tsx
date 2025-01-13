@@ -134,13 +134,13 @@ export default function Auth(props: any) {
           id="email"
           type="email"
           validators={[VALIDATOR_EMAIL()]}
-          errorText="Please enter a valid email address"
+          placeholder="Enter your email"
           onInput={inputHandler}
         />
         <button className="authentication__button">Continue</button>
         <p className="authentication__register">
           Don't have an account?{" "}
-          <Link to="/login" className="login__link">
+          <Link to="/login" className="login__link" onClick={switchModeHandler}>
             Sign in
           </Link>
         </p>
